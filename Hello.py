@@ -5,3 +5,6 @@ def check_even(number):
         return False
 
 number = int(user_input)
+
+if check_even(number):
+    print("Число", number, "является четным.")
