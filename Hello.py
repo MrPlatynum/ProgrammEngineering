@@ -3,3 +3,5 @@ def check_even(number):
         return True
     else:
         return False
+
+number = int(user_input)
