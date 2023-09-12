@@ -4,8 +4,10 @@ def check_even(number):
     else:
         return False
 
+# Получение числа от пользователя
 number = int(user_input)
 
+# Проверка четности числа и вывод результата
 if check_even(number):
     print("Число", number, "является четным.")
 else:
