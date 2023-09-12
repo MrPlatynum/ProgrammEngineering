@@ -8,3 +8,5 @@ number = int(user_input)
 
 if check_even(number):
     print("Число", number, "является четным.")
+else:
+    print("Число", number, "является нечетным.")
